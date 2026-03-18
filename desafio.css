@@ -1,0 +1,50 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+.desafio{
+    background: #F3F3F3 url('img/bg.png') no-repeat;
+    width:100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 463px;
+}
+@media screen and  (max-width: 991px){
+    .desafio{
+        background: #F3F3F3 url('img/bg.png') no-repeat;
+        background-position: bottom;
+        background-size: 63%;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+}
+.desafio p{    
+    color: #fff; 
+}
+.box-verde{
+    background-color: #007658;
+    width: 41%;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 50px;
+    transform: skewX(-15deg);
+    font-size: 36px;
+    padding: 2rem;
+}
+@media(max-width: 991px){
+    .box-verde{
+        width: 67%;
+        height: 173px;
+        justify-content: center;
+        align-items: center;
+        transform: skewX(-11deg);
+        margin: 47px;
+        font-size: 20px;
+    }
+
+}
