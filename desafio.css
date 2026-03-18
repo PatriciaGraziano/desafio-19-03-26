@@ -21,6 +21,9 @@
         height: 583px;
         align-items: flex-start;
     }
+    .desafio p{     
+    font-size: 18px; 
+}
 
 }
 .desafio p{    
