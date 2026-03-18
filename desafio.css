@@ -1,6 +1,7 @@
 *{
     margin: 0px; 
     padding: 0px;
+
 }
 .desafio{
     background: #F3F3F3 url('img/bg.png') no-repeat;
@@ -9,6 +10,7 @@
     justify-content: end;
     align-items: center;
     height: 463px;
+    
 }
 @media screen and  (max-width: 991px){
     .desafio{
@@ -22,18 +24,20 @@
 }
 .desafio p{    
     color: #fff; 
+    font-family: "Figtree", sans-serif;
+    font-size: 26px;
+    transform: skewX(1deg);
 }
 .box-verde{
     background-color: #007658;
-    width: 41%;
-    height: 248px;
+    width: 38%;
+    height: 158px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
     margin: 50px;
-    transform: skewX(-15deg);
-    font-size: 36px;
+    transform: skewX(-15deg);     
     padding: 2rem;
 }
 @media(max-width: 991px){
